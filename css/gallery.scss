@@ -1,0 +1,75 @@
+// Custom variables
+@import "custom/variables";
+.air {
+    margin-top: 3em;
+}
+
+.galleryimages {
+    padding: 0;
+    list-style: none;
+}
+
+.mrgn {
+    max-height: 70em;
+}
+
+a>.img-responsive:hover {
+	opacity: 0.8;
+    -webkit-transition:  0.1s ease-out;
+    -moz-transition:  0.1s ease-out;
+    -ms-transition:  0.1s ease-out;
+    -o-transition:  0.1s ease-out;
+    transition:  0.1s ease-out;
+}
+
+a.personal {
+    font-family: 'shsg-lightlight', 'serif';
+    font-size: 1.4em; 
+	line-height: 130%;
+	letter-spacing: 0.035em;
+	color:lighten( $color-red, 2% );
+    display: inline-block;
+    padding-right: 0.5em;
+}
+
+//a.personal:not(:last-child):after {
+//    content: " / ";
+//    visibility: visible;
+//}
+
+a.personal:hover {
+    color:lighten( $color-red, 8% );
+    text-decoration: none;
+    -webkit-transition:  0.1s ease-out;
+    -moz-transition:  0.1s ease-out;
+    -ms-transition:  0.1s ease-out;
+    -o-transition:  0.1s ease-out;
+    transition:  0.1s ease-out;
+}
+
+h1 {
+    font-size: 1.7em;
+    line-height: 50%;
+}
+
+p {
+    font-size: 1.5em;
+    color: rgb(88, 86, 86);
+}
+
+hr {
+    max-width: 5em;
+}
+
+hr.center {
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 10em;
+}			
+
+@media screen and (max-width: 700px) {
+    .mrgn {
+        margin-bottom: 2em;
+    }
+}

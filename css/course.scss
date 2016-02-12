@@ -1,0 +1,133 @@
+h1 {
+    line-height: 125%;
+}
+
+.asterix {
+    text-indent: -0.6em;
+}
+
+.air {
+    margin-top: 7em;
+}
+
+.airbottom {
+    margin-bottom: 12em;
+}
+
+//////course 2///// 
+
+h2 {
+    font-family: 'shsregular', 'sans-serif';
+    font-size: 1.9em;
+    text-align: center;
+    line-height: 125%;
+}
+
+.cntr {
+    text-align: center;
+}
+
+.images {
+    min-height: 8em;
+}
+
+.titles {
+
+    min-height: 5em;
+}
+
+.air {
+    margin-top: 6em;
+}
+
+.info {
+
+    min-height: 11em;
+}
+
+.cntr {
+    margin: 0 auto;
+}
+
+.moretwo {
+    margin: 0 auto;
+}
+
+ @media screen and (min-width: 1555px) {
+    .titles {
+     max-width: 35em;
+        margin: 0 auto;
+    }
+ }
+
+@media screen and (max-width: 1090px) {
+    .info {
+        min-height: 12em;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .titles {
+    min-height: 7em;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    hr {
+        margin-left: 0;
+    }
+    h1 {
+        text-align: left;
+        line-height: 120%;
+    }
+    .air {
+        margin-top: 3em;
+    }
+    .entry {
+    margin: 0 auto;
+    }
+
+}		
+@media screen and (max-width: 870px) {
+    .entry {
+        max-width: 64em;
+    }
+    h1 {
+        font-size: 2.6em;
+        line-height: 120%;
+    }
+    p {
+        font-size: 1.9em;
+    }
+    hr {
+        margin-top: 0;
+    }    
+}
+
+@media screen and (max-width: 767px) {
+    .airbottom {
+    margin-bottom: 5em;
+    }
+    .titles {
+    min-height: 4em;
+    }
+    .titlesshort {
+    min-height: 2em;
+    }
+    .info {
+    min-height: 9em;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .entry {
+        max-width: 54em;
+    }
+    h1 {
+        font-size: 2.1em;
+        line-height: 110%;
+    }
+    p {
+        font-size: 1.8em;
+    }
+}
